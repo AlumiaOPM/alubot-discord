@@ -50,7 +50,7 @@ async function sendMessagesToChannel(req, res) {
   const requestBody = req.body;
 
   const message = `
-    Chegou um quentíssimo!!
+    Chegou um quentíssimo!! 🔥
 
     Nome: ${requestBody.name},
     Telefone: ${requestBody.phone},
